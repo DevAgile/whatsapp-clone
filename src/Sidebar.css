@@ -56,4 +56,10 @@
     flex: 1;
     overflow: scroll;
     background-color: white;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;
+  }
+
+  .sidebar__chats::-webkit-scrollbar {
+    display: none;
   }
